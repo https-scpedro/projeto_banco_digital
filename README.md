@@ -24,14 +24,14 @@ Para executar este projeto em seu ambiente local e testar as consultas, siga os 
     ```
 
 2.  **Importe a Estrutura e os Dados:**
-    Com o banco de dados criado, importe o arquivo `Dump20250605.sql`. Este script irá criar todas as tabelas necessárias e preenchê-las com dados de exemplo, permitindo que as consultas sejam executadas corretamente.
+    Com o banco de dados criado, importe o arquivo `Dump_banco_digital.sql`. Este script irá criar todas as tabelas necessárias e preenchê-las com dados de exemplo, permitindo que as consultas sejam executadas corretamente.
 
     * **Via Linha de Comando:**
         ```sh
-        mysql -u seu_usuario -p banco_digital < /caminho/para/Dump20250605.sql
+        mysql -u seu_usuario -p banco_digital < /caminho/para/Dump_banco_digital.sql
         ```
     * **Via MySQL Workbench (ou similar):**
-        Abra o arquivo `Dump20250605.sql` e execute todo o script no servidor conectado.
+        Abra o arquivo `Dump_banco_digital.sql` e execute todo o script no servidor conectado.
 
 3.  **Execute as Consultas:**
     Após a importação, o banco de dados estará pronto. Você pode utilizar as queries presentes no arquivo `consultas.sql` para explorar os dados e validar os diferentes cenários de negócio.
